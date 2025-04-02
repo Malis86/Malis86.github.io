@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#first-paragraph {
+    color: #0e8397;
+    background-color: orange;
+    /* font-style: italic; */
+
+    }
+#second-paragraph {
+    color: #800080;
+    background-color: palegreen;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#bold-paragraph {
+    font-weight: bold;
+    background-color: #7fffd4;
+    font-family: cursive;
+}
+
+#span1 {
+    color: #b414dc;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#span2 {
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+#span3 {
+    background-color: #00eeff;
+}
+
+#span4 {
+    text-align: right;
+}
