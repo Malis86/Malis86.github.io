@@ -13,37 +13,111 @@ body {
 
 #p1-c1 {
     
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
-    sans-serif;
+    font-family: cursive;
     text-align: center;
     background-color: #e0d3de;
     padding: 24px;
 }
 
 #p1-c2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: cursive;
     text-align: center;
     background-color: #d8d0c1;
     padding: 24px;
 }
 
 #p1-c3 {
-    font-family: unset;
+    font-family: cursive;
     text-align: center;
     background-color: #cbb8a9;
     padding: 24px;
 }
 
 #p1-c4 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: cursive;
     text-align: center;
     background-color: #b3b492;
     padding: 24px;
 }   
 #p1-c5 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
-    'Lucida Sans', Arial, sans-serif;
+    font-family: cursive;
     text-align: center;
     background-color: #6f686d;
     padding: 24px;
 }
+
+#p2-h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#p2-c1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: #388659;
+    padding: 24px;
+}
+
+#p2-c2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: #52aa5e;
+    padding: 24px;
+}
+
+#p2-c3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: #52aa8a;
+    padding: 24px;
+}
+
+#p2-c4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: #3aaed8;
+    padding: 24px;
+}
+
+#p2-c5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: #2bd9fe;
+    padding: 24px;
+}
+
+#p3-h1,
+#p3-c1,
+#p3-c2,
+#p3-c3,
+#p3-c4,
+#p3-c5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#p3-c1 {
+    background-color: #db995a;
+    padding: 24px;
+}
+
+#p3-c2 {
+    background-color: #654236;
+    padding: 24px;
+}
+
+#p3-c3 {
+    background-color: #d6d4a0;
+    padding: 24px;
+}
+
+#p3-c4 {
+    background-color: #da7635;
+    padding: 24px;
+}
+
+#p3-c5 {
+    background-color: #e24e1b;
+    padding: 24px;
+}
+
