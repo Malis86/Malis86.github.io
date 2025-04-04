@@ -11,7 +11,8 @@ div {
     border: 10px dashed #099ea8;
     margin: 24px 0px;
     padding: 24px 36px;
-    background-color: lavender
+    background-color: lavender;
+    color: darkslateblue;
 }
 
 p {
