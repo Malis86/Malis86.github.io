@@ -1,0 +1,50 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+#pic1 {
+    width: 60%;
+    margin-top: 15px;
+    border: 10px ridge #881818;
+    padding: 2px;
+    background-color: navajowhite;
+    box-shadow: 5px 5px 10px black;
+}
+
+#pic2 {
+    width: 100%;
+    border: 8px ridge lightgray;
+    padding: 2px;
+    background-color: darkcyan;
+    box-shadow: 5px 5px 10px black;
+}
+
+#frame2 {
+    width: 70px;
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+#pic3 {
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 8px ridge darkolivegreen;
+    padding: 8px;
+    background-color: blanchedalmond;
+    box-shadow: 5px 5px 10px black;
+}
+
+#text-pic {
+    border: 8px solid goldenrod;
+    border-radius: 100px;
+    margin-top: 100px;
+    padding: 8px;
+    background-color: burlywood;
+    box-shadow: 5px 5px 10px black;
+}
