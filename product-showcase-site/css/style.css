@@ -9,9 +9,9 @@ body {
 .mike {
     background-color: #073E1E;
     width: 50%;
-    min-width: 800pxpx;
+    min-width: 500px;
     margin-left: auto;
-    margin-right: 200px;
+    margin-right: auto
 }
 
 .color-1 {
@@ -26,9 +26,9 @@ body {
 .will {
     background-color: #3A5FE5;
     width: 50%;
-    min-width: 800px;
-    margin-left: 500px;
-    margin-right: auto;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto
 }
 
 .color-2 {
@@ -43,8 +43,8 @@ body {
 .lucus {
     background-color: #FF1515;
     width: 50%;
-    min-width: 800px;
-    margin-left: 500px;
+    min-width: 500px;
+    margin-left: auto;
     margin-right: auto;
 }
 
