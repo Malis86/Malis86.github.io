@@ -11,7 +11,7 @@ body {
     width: 50%;
     min-width: 500px;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 .color-1 {
@@ -28,7 +28,7 @@ body {
     width: 50%;
     min-width: 500px;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 .color-2 {
@@ -55,5 +55,23 @@ body {
 
 #h4-3{
     margin-left: 100px;
+}
+
+.eleven {
+    background-color: #1E0707;
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color-4 {
+    background-color: #1E0707;
+    padding: 80px 0px;
+}
+
+#h2-4,
+#h4-4 {
+    color: white;
 }
 
