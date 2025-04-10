@@ -9,7 +9,7 @@ body {
 .mike {
     background-color: #073E1E;
     width: 50%;
-    min-width: 500px;
+    min-width: 800pxpx;
     margin-left: auto;
     margin-right: 200px;
 }
@@ -19,19 +19,15 @@ body {
     padding: 80px 0px;
 }
 
-#h2-1 {
-    text-align: center;
-}
-
 #h4-1 {
-    text-align: center;
+    margin-left: 100px;
 }
 
 .will {
     background-color: #3A5FE5;
     width: 50%;
-    min-width: 800pxpx;
-    margin-left: auto;
+    min-width: 800px;
+    margin-left: 500px;
     margin-right: auto;
 }
 
@@ -40,11 +36,25 @@ body {
     padding: 80px 0px;
 }
 
-#h2-2 {
-    text-align: center;
-}   
 
 #h4-2 {
-    text-align: center;
+    margin-left: 100px;
+}
+
+.lucus {
+    background-color: #FF1515;
+    width: 50%;
+    min-width: 800px;
+    margin-left: 500px;
+    margin-right: auto;
+}
+
+.color-3 {
+    background-color: #FF1515;
+    padding: 80px 0px;
+}
+
+#h4-3{
+    margin-left: 100px;
 }
 
