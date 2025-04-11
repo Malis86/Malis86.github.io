@@ -6,3 +6,61 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#list-coloumn-1 {
+    background-color: antiquewhite;
+}
+
+#left-sidebar-content-1 h3 {
+    border-bottom: 2px solid plum;
+    padding-bottom: 8px;
+}
+
+#list-column-1 {
+    display: flex;
+}
+
+#left-sidebar-content-1 {
+    background-color: antiquewhite;
+    padding: 24px;
+}
+
+#main-content {
+    background-color: whitesmoke;
+    padding: 24px;
+}
+
+#right-side-image {
+    background-color: antiquewhite;
+}
+
+#list-column-1 {
+    display: grid;
+    grid-template-columns: 200px 1fr 250px;
+}
+
+#left-sidebar-content-1 ul {
+    list-style-type: none;
+}
+
+#left-sidebar-content-1 ul a {
+    color: chocolate;
+    text-decoration: none;
+}
+
+#left-sidebar-content-1 ul li {
+    padding: 5px 0px;
+}
+
+#right-side-image {
+    padding: 6px;
+}
+
+#main-content h5 a {
+    color: chocolate;
+    text-decoration: none;
+}
+
+#plot h5 a {
+    color: chocolate;
+}
