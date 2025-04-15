@@ -97,3 +97,7 @@ body {
 .metube-item .video-channel {
     margin-bottom: 4px;
 }
+
+.metube-item h4 a:hover {
+    text-decoration: underline;
+}
