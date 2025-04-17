@@ -120,3 +120,7 @@ body {
     border-radius: 50px;
     color: blue;
 }
+
+#column-one h1 {
+    color: rebeccapurple;    
+}
