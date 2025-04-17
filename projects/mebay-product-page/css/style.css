@@ -6,3 +6,13 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#page-layout {
+    display: grid;
+    grid-template-columns: 200px 2fr 2fr;
+}
+
+#mini1 a :hover {
+    border-style: solid;
+    border-radius: 12px;
+}
