@@ -9,10 +9,115 @@ body {
 
 #page-layout {
     display: grid;
-    grid-template-columns: 200px 2fr 2fr;
+    grid-template-columns: 150px 1fr 1fr;
+    grid-template-areas: 
+    "column-one column-two column-three";
 }
 
-#mini1 a :hover {
-    border-style: solid;
-    border-radius: 12px;
+#mini1:hover {
+    box-shadow: 4px 4px 4px #00000033;
 }
+
+#mini2:hover {
+    box-shadow: 4px 4px 4px #00000033;
+}
+
+#mini3:hover {
+    box-shadow: 4px 4px 4px #00000033;
+}
+
+#mini4:hover {
+    box-shadow: 4px 4px 4px #00000033;
+}
+
+#mini5:hover {
+    box-shadow: 4px 4px 4px #00000033;
+}
+
+#mini6:hover {
+    box-shadow: 4px 4px 4px #00000033;
+}
+
+#mini7:hover {
+    box-shadow: 4px 4px 4px #00000033;
+}
+
+#column-one {
+    padding: 15%;
+    margin: 0%;
+}
+
+#column-two {
+    padding: 1%;
+    margin: 0px;
+}
+
+#column-three {
+    padding: 5%;
+}
+
+#column-three h1 {
+    border-bottom: 1px solid lightgray;
+    margin: 0%;
+    padding: 12px 0px;
+    
+}
+
+#column-three h5 {
+    text-decoration: underline;
+}
+
+#column-three h5 {
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 1px ;
+    padding: 20px 0px;
+    
+}
+
+#column-three h2 {
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 1px ;
+    padding: 20px 0px;
+    
+}
+
+#column-three li {
+    list-style: none;
+    margin: 10px;
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#column-three h3 {
+    list-style: none;
+    margin: 10px;
+    border: 1px solid ;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: blue;
+    color: white;
+}
+
+#see-in-cart {
+    list-style: none;
+margin: 10px;
+border: 1px solid blue;
+text-align: center;
+padding: 10px;
+border-radius: 50px;
+color: blue;
+}
+
+#added {
+    list-style: none;
+margin: 10px;
+border: 1px solid blue;
+text-align: center;
+padding: 10px;
+border-radius: 50px;
+color: blue;
+}
+
