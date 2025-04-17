@@ -11,7 +11,7 @@ body {
     display: grid;
     grid-template-columns: 150px 1fr 1fr;
     grid-template-areas: 
-    "column-one column-two column-three";
+        "column-one column-two column-three";
 }
 
 #mini1:hover {
@@ -103,21 +103,20 @@ body {
 
 #see-in-cart {
     list-style: none;
-margin: 10px;
-border: 1px solid blue;
-text-align: center;
-padding: 10px;
-border-radius: 50px;
-color: blue;
+    margin: 10px;
+    border: 1px solid blue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    color: blue;
 }
 
 #added {
     list-style: none;
-margin: 10px;
-border: 1px solid blue;
-text-align: center;
-padding: 10px;
-border-radius: 50px;
-color: blue;
+    margin: 10px;
+    border: 1px solid blue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    color: blue;
 }
-
