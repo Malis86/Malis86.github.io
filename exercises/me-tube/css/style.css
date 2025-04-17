@@ -80,8 +80,11 @@ body {
 }
 
 .metube-item img {
+    flex-wrap: wrap;
     border-radius: 20px;
     width: 100%;
+    min-width: 50%;
+    max-width: 100%;
 }
 .metube-item h4 {
     margin: 8px;
