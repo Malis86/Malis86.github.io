@@ -43,16 +43,19 @@ body {
 }
 
 #column-one {
+    grid-area: column-one;
     padding: 15%;
     margin: 0%;
 }
 
 #column-two {
+    grid-area: column-two;
     padding: 1%;
     margin: 0px;
 }
 
 #column-three {
+    grid-area: column-three;
     padding: 5%;
 }
 
@@ -64,7 +67,6 @@ body {
 }
 
 #column-three h5 {
-    text-decoration: underline;
 }
 
 #column-three h5 {
@@ -123,4 +125,24 @@ body {
 
 #column-one h1 {
     color: rebeccapurple;    
+}
+
+#seller {
+    color: darkgoldenrod;
+    text-decoration: none;
+}   
+
+#percent {
+    color: darkmagenta;
+    text-decoration: none;
+}
+
+#other {
+    color: darkred;
+    text-decoration: none;
+}
+
+#contact {
+    color: darkblue;
+    text-decoration: none;
 }
