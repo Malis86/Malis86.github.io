@@ -9,44 +9,20 @@
 */
 
 .card-style-2 {
-    display: flex;
-    flex-direction: column;
-    margin-left: 36px;
-    gap: 36px;
+    max-width: 350px;
     background-color: white;
-    border-radius: 50px;
-    width: 350px;
-    text-align: center;
-    margin-top: 15px;
-    padding: 30px;
+    margin: 24px;
+    border-radius: 24px;
 }
 
-.card-style-2 p {
-    margin-top: 0%;
-    margin-bottom: 5px;
+.card-style-2 img {
+    width: 100%;
+    border-radius: 50%;
 }
 
-.profile-pic-container img {
-    border-radius: 100%;
-    width: 75%;
-    margin-left:auto;
-    margin-right: auto;
+.animagram-header {
+    display: flex;
+    justify-content: space-between;
 }
 
-.profile-pic-container {
-    padding: 10%;
-}
-
-.animagram-footer {
-    font-size: 25px;
-}
-
-.logo {
-    margin-right: 10%;
-    
-}
-
-.brand-name {
-    font-size: 28px;
-}
 
