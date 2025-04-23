@@ -1,0 +1,123 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+.card-style-3 {
+    max-width: 350px;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.pokemon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokemon-header .health {
+    font-size: 20px;
+}
+
+.details {
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.data {
+    font-size: 12px;
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#pokemon-card-1 img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 5px solid white;
+}
+
+#pokemon-card-1 {
+    background-color: darkgreen;
+    border: 15px solid white;
+    padding: 20px;
+}
+
+#pokemon-card-2 img {
+    width: 100%;
+    display: flex;
+    border: 5px solid white;
+}
+
+#pokemon-card-2 {
+    background-color: #965296;
+    border: 15px solid white;
+    padding: 20px;
+}
+
+#pokemon-card-3 img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 5px solid white;
+}
+
+#pokemon-card-3 {
+    background-color: #db3535;
+    border: 15px solid white;
+    padding: 20px;
+}
+
+.attack {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+.energy {
+    display: flex;
+    justify-content: space-between;
+}
+
+#pokemon-card-4 img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 5px solid white;
+}
+
+#pokemon-card-4 {
+    background-color: rgb(61, 92, 185);
+    border: 15px solid white;
+    padding: 20px;
+}
+
+.power {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description {
+    padding-top: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.data {
+    font-weight: bold;
+    margin-top: 25px;
+}
