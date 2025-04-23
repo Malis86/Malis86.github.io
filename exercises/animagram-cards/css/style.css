@@ -13,16 +13,38 @@
     background-color: white;
     margin: 24px;
     border-radius: 24px;
+    padding: 20px;
 }
 
-.card-style-2 img {
+.profile-pic-container img {
     width: 100%;
     border-radius: 50%;
+    margin: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.card-style-2 h2, p, img {
+    text-align: center;
 }
 
 .animagram-header {
     display: flex;
     justify-content: space-between;
+
 }
+
+.brand-name {
+    font-size: 27px;
+}
+
+.animagram-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    padding-top: 50px;
+}
+
 
 
