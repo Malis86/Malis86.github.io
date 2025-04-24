@@ -7,6 +7,21 @@ body {
     font-family: sans-serif;
 }
 
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+}
+
+#background-hero {
+    background-image: url("../images/sky.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    margin-bottom: 100px;
+}
+
 #hero-pic {
     background-image: url("../images/hero-pic.jpg");
     height: 100vh;
@@ -25,4 +40,22 @@ body {
     position: absolute;
     bottom: 70%;
     left: 15%;
+}
+
+.single-column {
+    background-color: black;
+}
+
+.horizontal-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    border: 25px solid;
+}
+
+.horizontal-gallery img {
+    height: 200px;
+    flex: 1;
+    object-fit: cover;
+    width: 100%;
 }
