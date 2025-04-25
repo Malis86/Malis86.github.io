@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Anton&family=Arimo:ital,wght@0,400..700;1,400..700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bentham&family=Biryani:wght@200;300;400;600;700;800;900&family=Cabin:ital,wght@0,400..700;1,400..700&family=Calligraffitti&family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Comfortaa:wght@300..700&family=Cormorant+SC:wght@300;400;500;600;700&family=Engagement&family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hind:wght@300;400;500;600;700&family=Homemade+Apple&family=IM+Fell+DW+Pica+SC&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=PT+Sans+Narrow:wght@400;700&family=Permanent+Marker&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Quattrocento:wght@400;700&family=Questrial&family=Quicksand:wght@300..700&family=Rasa:ital,wght@0,300..700;1,300..700&family=Reenie+Beanie&family=Roboto+Slab:wght@100..900&family=Rokkitt:ital,wght@0,100..900;1,100..900&family=Slabo+13px&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,4 +7,123 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+}
+
+h1 {
+    font-family: "Overlock", sans-serif;
+}
+
+#layout  {
+   max-width: 800px;
+   margin: 48px auto;
+   text-align: center;
+}
+
+#hero {
+    background-image: url("../images/urban-hi-res-3q76.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+#hero h1 {
+    color: white;
+    position: absolute;
+    font-size: 80px;
+    padding-left: 100px;
+    left: 50%
+}
+
+#hero a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    background-color: #1b1be276;
+    padding: 24px;
+    border-radius: 24px;
+    position: absolute;
+    left: 65%;
+    bottom: 30%;
+    text-align: center;
+}
+
+#hero a:hover {
+    background-color: #602fc8c5;
+    transition: 
+        background-color .5s,
+        color .5s;
+}
+
+.gallery {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 24px;
+   padding: 24px;
+   /*border: 8px solid black;*/
+   padding: 0px;
+   
+}
+
+.gallery img {
+    width: 100%;
+}
+
+#background {
+    background: linear-gradient(#d56f40b5, #491b1dfc);  
+    padding-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-family: "Overlock", sans-serif;
+    text-align: center;
+}
+
+.cards a {
+    text-decoration: none;
+    color: white;
+    background-color: darkcyan;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cards a:hover {
+    
+}
+
+.cards h3 {
+    color: antiquewhite;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+}
+
+#card-1 {
+    border: 8px solid;
+    min-height: 200px;
+    min-width: 200px;
+    background-color: #70809087;
+}
+
+#card-2 {
+    border: 8px solid;
+    min-height: 200px;
+    min-width: 200px;
+    background-color: #70809087;
+}
+
+#card-3 {
+    border: 8px solid;
+    min-height: 200px;
+    min-width: 200px;
+    background-color: #70809087;
 }
