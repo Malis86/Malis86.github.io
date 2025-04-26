@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Shippori+Antique&display=swap');
 /*
     NOTE TO STUDENTS: 
 
@@ -7,10 +8,6 @@
     Good luck, and have fun!
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 #license {
     width: 700px;
     border: 3px solid  ;
@@ -109,7 +106,6 @@
     margin-bottom: 9px;
     margin-top: 0px;
 }
-
 
 #signature {
     font-size: 35px;
