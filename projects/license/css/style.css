@@ -1,0 +1,150 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+#license {
+    width: 700px;
+    border: 3px solid  ;
+    border-radius: 24px;
+    padding: 24px;
+    background: linear-gradient(to bottom right, #efb261 25%, coral);
+    box-shadow: 8px 8px 9px #0000009f;
+}
+
+#left-side {
+    display: inline-block;
+    width: 65%;
+}
+
+#right-side {
+    display: inline-block;
+    width: 34%;
+}
+
+#id-and-expiration {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+#id-and-expiration div {
+    color: darkblue;
+    font-size: 16px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+#id-and-expiration span {
+    color: red;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+}
+
+#small-pic-container,
+#data-fields {
+    display: inline-block;
+}
+
+#small-pic-container img {
+    width: 80%;
+    opacity: 50%;
+}
+
+#data-left,
+#data-right {
+    display: inline-block;
+}
+
+#signature {
+    text-align: center;
+}
+
+#right-side img {
+    width: 100%;
+}
+
+#donor,
+#real-id {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.fa-star {
+    background-color: gold;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+#donor {
+    font-family: "Shippori Antique B1", sans-serif;
+    font-weight: bolder;
+    color: red;
+}
+
+#content h1 {
+    font-size: 60px;
+    margin: 0px;
+    color: darkblue;
+}
+
+#left-side h4 {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 3px;
+    font-size: 30px;
+    font-family: "Noto Sans", sans-serif;
+    margin-bottom: 9px;
+    margin-top: 0px;
+}
+
+
+#signature {
+    font-size: 35px;
+    font-family: "Corinthia", cursive;
+    font-weight: bolder;
+}
+
+#address {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    margin-left: 1px;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+#data-left,
+#data-right div {
+    color: darkblue;
+    font-size: 18px;
+    font-family: "Noto Sans", sans-serif;
+    padding: 3px;
+}
+
+#data-right span {
+    color: red;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+}
+
+#data-left span {
+    color: red;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+}
+
+#data-right {
+    margin-left: 15px;
+}
