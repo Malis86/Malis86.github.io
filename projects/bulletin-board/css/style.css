@@ -1,0 +1,72 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+
+.post-it,
+.post-it-2 {
+    display: inline-block;
+
+}
+
+.post-it #shop, #list {
+    background-color: darkseagreen;
+    margin: 0px;
+    font-size: 24px;
+    padding: 34px;
+    margin-left: 70%;
+    
+}
+
+.post-it h2 {
+    display: inline-block;
+    font-size: 24px;
+    background-color: yellow;
+    text-align: center;
+    padding: 10%;
+}
+
+.post-it img {
+    display: inline-block;
+    width: 20%;
+    border: 15px solid white;
+    margin: 50px;
+}
+
+.post-it-2 #study, #hints {
+    background-color: aqua;
+    margin: 0px;
+    font-size: 24px;
+    padding: 34px;
+    margin-left: 70%;
+
+}
+
+.post-it-2 #study {
+    display: inline-block;
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+.post-it-2 #hints {
+    display: inline-block;
+    font-size: 24px;
+    padding: 38px;
+    font-weight: bold;
+}
+
+.post-it-2 h3 {
+    display: inline-block;
+    font-size: 25px;
+    background-color: blueviolet;
+}
+
+.post-it-2 h4 {
+    display: inline-block;
+    font-size: 25px;
+    background-color: darkturquoise;
+}
