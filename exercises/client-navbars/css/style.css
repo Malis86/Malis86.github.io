@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#main-container-1 {
+    text-align: center;
+    background: linear-gradient(to bottom, #935341, #4F834F );
+    padding: 24px;
+}
+
+
+#links-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#gallery-1,
+#contact-1 {
+    text-decoration: none;
+    color: white;
+}
+
+
