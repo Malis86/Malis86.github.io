@@ -450,10 +450,10 @@ body {
         "header header header"
         "navbar navbar navbar"
         "banner banner banner"
-        "caed-1 card-2 card-3"
+        "card-1 card-2 card-3"
         "aside blog blog"
         "footer footer footer"
-        "bottom" bottom bottom;
+        "bottom bottom bottom";
     }
     
     #nav {
@@ -461,6 +461,33 @@ body {
     }
 
     #nav a {
-        flex: 165px;
+        flex: 100px;
     }
 }
+
+@media screen and (max-width: 799px) and (min-width: 380px) {
+    body {
+        background: lightblue;
+    }
+
+    #grid-layout {
+        grid-template-columns:1fr;
+        grid-template-areas: 
+        "header"
+        "navbar"
+        "banner"
+        "card-1"
+        "card-2"
+        "card-3"
+        "aside"
+        "blog"
+        "footer"
+        "bottom";
+    }
+
+    #nav {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+ 
