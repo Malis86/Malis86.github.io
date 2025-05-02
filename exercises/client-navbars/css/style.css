@@ -25,4 +25,9 @@ body {
     color: white;
 }
 
+#logo-1  h1 {
+    text-decoration: underline black;
+    color: white;
+}
+
 
