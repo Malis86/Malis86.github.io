@@ -26,6 +26,7 @@ body {
 
 #navbar a:hover {
     background: linear-gradient(to top, #D2B48C, #E5D3B3);
+    border-radius: 20px;
 }
 
 #navbar #logo {
@@ -60,11 +61,15 @@ body {
 }
 
 .dropdown-menu a {
-    background-color: #987554;
+    background-color: #BABDBC;
     width: 100%;
     min-width: 200px;
 }
 
 #navbar .dropdown-menu a:hover {
     background: #B99976;
+}
+
+#logo {
+    border-radius: 20px;
 }
