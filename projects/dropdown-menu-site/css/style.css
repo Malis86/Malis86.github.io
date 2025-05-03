@@ -73,3 +73,40 @@ body {
 #logo {
     border-radius: 20px;
 }
+
+#oscar img {
+    width: 100%;
+    padding: 25%;
+    padding-top: 5%;
+}
+
+
+#joy img {
+    width: 100%;
+    padding: 25%;
+    padding-top: 5%;
+}
+
+#primm img {
+    width: 100%;
+    padding: 25%;
+    padding-top: 5%;
+}
+
+#oscar h1 {
+    font-size: 34px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    margin: 0px;
+}
+
+#oscar p {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin: 0px;
+}
