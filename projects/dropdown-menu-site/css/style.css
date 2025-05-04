@@ -48,7 +48,7 @@ body {
     transition: 
         opacity 0.25s,
         visibility 0.25s;
-        z-index: 10;
+    z-index: 10;
 }
 
 .dropdown-container:last-child .dropdown-menu {
@@ -80,7 +80,6 @@ body {
     padding-top: 5%;
 }
 
-
 #joy img {
     width: 100%;
     padding: 25%;
@@ -110,6 +109,36 @@ body {
     padding: 20px;
     margin: 0px;
 }
-@media screen and (max-width: 520px) {
+
+.hero {
+    background-image: url("../images/dog-8626730_1280.jpg");
+    height: 140vh;
+    background-size: contain;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 60px;
+    position: absolute;
+    left: 40%;
+    bottom: 80%;
+    background-color: white;
+    padding: 10px;
+}
+
+.hero p {
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    bottom: 60%;
+}
+
+@media screen and (max-width: 1132px) and (min-width: 800px) {
         
 }
