@@ -232,7 +232,6 @@ body {
     background-color: black;
 }
 
-
 #primm p {
     font-size: 18px;
     text-align: center;
@@ -274,7 +273,7 @@ body {
 }
 
 @media screen and (max-width: 650px) {
-        #navbar {
-            flex-direction: column;
-        }
+    #navbar {
+        flex-direction: column;
+    }
 }
