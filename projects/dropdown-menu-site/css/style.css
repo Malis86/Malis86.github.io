@@ -112,7 +112,7 @@ body {
 
 .hero {
     background-image: url("../images/dog-8626730_1280.jpg");
-    height: 140vh;
+    height: 85vh;
     background-size: contain;
     background-position: center center;
     display: flex;
@@ -155,8 +155,9 @@ body {
     border: 2px solid black;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: -4px 4px 12px black;
+    box-shadow: -4px 4px 12px green;
     margin-top: 20px;
+    background-color: black;
 }
 
 #oscar img {
@@ -176,8 +177,9 @@ body {
     border: 2px solid black;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: -4px 4px 12px black;
+    box-shadow: -4px 4px 12px palevioletred;
     margin-top: 20px; 
+    background-color: black;
 }
 
 #joy p {
@@ -225,8 +227,9 @@ body {
     border: 2px solid black;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: -4px 4px 12px black;
-    margin-top: 20px; 
+    box-shadow: -4px 4px 12px purple;
+    margin-top: 20px;
+    background-color: black;
 }
 
 
@@ -262,12 +265,16 @@ body {
     width: 100%;
     object-fit: cover;
     padding: 70px;
+    background-color: black;
+    margin: 0px;
 }
 
 #primm h1 {
     margin-top: 12px;
 }
 
-@media screen and (max-width: 1132px) and (min-width: 800px) {
-        
+@media screen and (max-width: 650px) {
+        #navbar {
+            flex-direction: column;
+        }
 }
