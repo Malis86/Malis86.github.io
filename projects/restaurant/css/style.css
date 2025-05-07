@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+    
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(14, 60, 18);
+    padding: 24px;
+}
+    
+#navbar a:hover {
+    background-color: #0b460b9d;
+    border-radius: 100px;
+}
+    
+#navbar #logo img {
+    margin-right: auto;
+}
+
+#navbar .cta-button {
+    background-color: white;
+    color: green;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#navbar .cta-button:hover {
+    color: white;
+}
+
+.dropdown-container {
+    position: relative;
+}
+    
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s, visibility 0.25s;
+}
+    
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+    
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+    
+.dropdown-menu a {
+    background-color: #3d9df6;
+    width: 100%;
+    min-width: 200px;
+    font-weight: bold;
+}
+    
+#navbar .dropdown-menu a:hover {
+    background: #9bd2f5;
+}
+
+#hero-1 {
+    background-image: url("../images/pexels-eva-bronzini-6193381.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+#hero-1 h1 {
+    font-size: 80px;
+    position: absolute;
+    left: 30%;
+    bottom: 70%;
+    color: rgb(219, 189, 151);
+}
+
+#hero-1 h2 {
+    font-size: 65px;
+    position: absolute;
+    left: 33%;
+    top: 75%;
+    color: #ffffff;
+}
+
+#hero-1 h3 {
+    font-size: 45px;
+    position: absolute;
+    left: 40%;
+    bottom: 40%;
+    color: rgb(6, 225, 249);
+}
+
+#footer {
+    background-color: bisque;
+    color: #0b460b;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #0b460b;
+}
+
+#footer a:hover {
+    background-color: #0b460b9d;
+    color: white;
+}
+    
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+    
+#footer-columns-navbar {
+    width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+    
+#footer-columns-navbar a {
+    display: block;
+    padding: 8px 0px;
+}
+        
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+}
