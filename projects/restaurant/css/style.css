@@ -89,31 +89,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     position: relative;
-    z-index: auto;
-}
-
-#hero-1 h1 {
-    font-size: 80px;
-    position: absolute;
-    left: 30%;
-    bottom: 70%;
-    color: rgb(219, 189, 151);
-}
-
-#hero-1 h2 {
-    font-size: 65px;
-    position: absolute;
-    left: 33%;
-    top: 75%;
-    color: #ffffff;
-}
-
-#hero-1 h3 {
-    font-size: 45px;
-    position: absolute;
-    left: 40%;
-    bottom: 40%;
-    color: rgb(6, 225, 249);
+    z-index: -1;
 }
 
 #footer {
@@ -158,9 +134,9 @@ body {
     font-size: 24px;
 }
 
-#centered-column {
+.centered-column {
     width: 90vw;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 48px auto;
     display: flex;
     flex-wrap: wrap;
@@ -169,12 +145,12 @@ body {
 }
     
 .card {
-    width: 350px;
+    width: 500px;
     border: 2px solid #0b460b;
     border-radius: 5px;
     padding: 10px;
     box-shadow: -4px4px 12px black;
-    background: linear-gradient(-50deg, #0b460b, #a1efa1, #0b460b);
+    background-color: #24ad24;
     display: flex;
     flex-direction: column;
 }
@@ -214,12 +190,64 @@ body {
 .card a:hover {
     background-color: transparent;
     color: #9bd2f5;
-    color: #2077c8;
+    color: #073907;
 }
 
 h1 {
     text-align: center;
-    text-decoration: underline;
     color: antiquewhite;
     font-size: 50px;
+    background-color: #1b971b;
+    border: 1px solid;
+}
+
+.horizontal-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-bottom: 100px;
+    padding-top: 0px;
+}
+
+.horizontal-masonry-gallery, #hero-1 {
+    visibility: hidden;
+}
+
+.horizontal-masonry-gallery img {
+    height: 270px;
+    flex: 1;
+    object-fit: cover;
+    visibility: visible;
+}
+@media screen and (max-width: 950px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer a{
+        visibility:hidden
+   }
+
+   #footer-navbar {
+        visibility: visible;
+        width: 200px;
+   }
+
+   #footer-navbar, span {
+        text-align: center;
+        left: 20%;
+        bottom: 30%;
+        font-size: 27px;
+   }
+
+   .dropdown-container:last-child .dropdown-menu {
+        right: auto;
+        left: auto;
+   }
+
+   .dropdown-menu a {
+        z-index: 1;
+   }
+   
 }
