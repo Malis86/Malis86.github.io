@@ -7,53 +7,33 @@ body {
     font-family: sans-serif;
 }
 
-header,
-footer {
-    text-align: center;
-    padding: 50px;
+#navbar {
+    background: linear-gradient(to bottom, #704d9f, #60bcc2);
+    display: flex;
+    align-items: center;
 }
 
-header p {
-    font-size: 14px;
-}
-
-form {
-    background-color: white;
-    padding: 36px;
-    border: 2px solid #CCCCCC;
-    border-radius: 2px;
-}
-
-form div label {
-    display: block;
-    margin-bottom: 8px; 
-    font-weight: bold;
-}
-
-input,
-select,
-textarea {
-    padding: 12px;
-    width: 100%;
-    box-sizing: border-box;
-    border: 1px solid #CCCCCC;
-    margin-bottom: 16px;
-}
-
-textarea {
-    font-family: sans-serif;
-}
-
-input[type=submit] {
-    width: auto;
-    background-color: #0e6de1;
+#navbar a {
+    text-decoration: none;
     color: white;
-    border: 0;
-    border-radius: 3px;
-    min-width: 75px;
+    padding: 24px;
 }
 
-input:not(:focus):not(:placeholder-shown):invalid {
-    background-color: lightcoral;
-    border: 2px solid red;
+#navbar #logo {
+    margin-right: auto;
+}
+
+#navbar #logo img {
+    width: 150px;
+}
+
+#navbar .cta-buttom {
+    background-color: white;
+    color: #704d9f;border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
 }
