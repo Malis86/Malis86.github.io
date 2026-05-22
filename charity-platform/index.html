@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+       ```html id="2lvvta"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HopeRise Charity</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:'Poppins', sans-serif;
+      background:#f7fafc;
+      color:#222;
+      line-height:1.6;
+    }
+
+    html{
+      scroll-behavior:smooth;
+    }
+
+    /* NAVBAR */
+
+    header{
+      width:100%;
+      background:#ffffff;
+      position:fixed;
+      top:0;
+      left:0;
+      z-index:1000;
+      box-shadow:0 2px 10px rgba(0,0,0,0.08);
+    }
+
+    .navbar{
+      width:90%;
+      margin:auto;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:18px 0;
+    }
+
+    .logo{
+      font-size:28px;
+      font-weight:700;
+      color:#0d6efd;
+    }
+
+    .nav-links{
+      display:flex;
+      gap:30px;
+    }
+
+    .nav-links a{
+      text-decoration:none;
+      color:#222;
+      font-weight:500;
+      transition:0.3s;
+    }
+
+    .nav-links a:hover{
+      color:#0d6efd;
+    }
+
+    .menu-btn{
+      display:none;
+      font-size:30px;
+      cursor:pointer;
+    }
+
+    /* HERO */
+
+    .hero{
+      height:100vh;
+      background:
+      linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+      url('https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1600&auto=format&fit=crop');
+
+      background-size:cover;
+      background-position:center;
+
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      color:white;
+      padding:20px;
+    }
+
+    .hero-content{
+      max-width:850px;
+      animation:fadeIn 1.5s ease;
+    }
+
+    .hero h1{
+      font-size:65px;
+      margin-bottom:20px;
+      line-height:1.2;
+    }
+
+    .hero p{
+      font-size:20px;
+      margin-bottom:35px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:15px 35px;
+      background:#ffb703;
+      color:#222;
+      text-decoration:none;
+      border-radius:50px;
+      font-weight:600;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:#ffaa00;
+      transform:translateY(-3px);
+    }
+
+    /* SECTIONS */
+
+    section{
+      padding:100px 10%;
+    }
+
+    .section-title{
+      text-align:center;
+      margin-bottom:60px;
+    }
+
+    .section-title h2{
+      font-size:42px;
+      color:#0d6efd;
+      margin-bottom:10px;
+    }
+
+    .section-title p{
+      color:#666;
+    }
+
+    /* CARDS */
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:30px;
+    }
+
+    .card{
+      background:#fff;
+      padding:35px;
+      border-radius:16px;
+      box-shadow:0 8px 20px rgba(0,0,0,0.08);
+      transition:0.4s;
+    }
+
+    .card:hover{
+      transform:translateY(-10px);
+    }
+
+    .card h3{
+      margin-bottom:15px;
+      color:#0d6efd;
+    }
+
+    /* DONATION SECTION */
+
+    .donation{
+      background:#0d6efd;
+      color:white;
+      border-radius:25px;
+      text-align:center;
+      padding:70px 30px;
+    }
+
+    .donation h2{
+      font-size:45px;
+      margin-bottom:20px;
+    }
+
+    .donation p{
+      max-width:700px;
+      margin:auto;
+      margin-bottom:35px;
+    }
+
+    /* FORM */
+
+    .form-container{
+      max-width:600px;
+      margin:auto;
+      background:white;
+      padding:40px;
+      border-radius:20px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    .form-container form{
+      display:flex;
+      flex-direction:column;
+      gap:20px;
+    }
+
+    .form-container input,
+    .form-container textarea,
+    .form-container select{
+      padding:15px;
+      border:1px solid #ddd;
+      border-radius:10px;
+      font-size:16px;
+    }
+
+    .form-container textarea{
+      resize:none;
+      height:120px;
+    }
+
+    .form-container button{
+      border:none;
+      cursor:pointer;
+      font-size:16px;
+    }
+
+    /* FOOTER */
+
+    footer{
+      background:#111827;
+      color:white;
+      text-align:center;
+      padding:40px 20px;
+    }
+
+    /* ANIMATION */
+
+    @keyframes fadeIn{
+      from{
+        opacity:0;
+        transform:translateY(20px);
+      }
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+    }
+
+    /* MOBILE */
+
+    @media(max-width:768px){
+
+      .hero h1{
+        font-size:42px;
+      }
+
+      .hero p{
+        font-size:18px;
+      }
+
+      .nav-links{
+        position:absolute;
+        top:80px;
+        right:-100%;
+        background:white;
+        width:250px;
+        height:300px;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        transition:0.4s;
+      }
+
+      .nav-links.active{
+        right:0;
+      }
+
+      .menu-btn{
+        display:block;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+  <header>
+
+    <div class="navbar">
+
+      <div class="logo">HopeRise</div>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#mission">Mission</a>
+        <a href="#programs">Programs</a>
+        <a href="#donate">Donate</a>
+        <a href="#volunteer">Volunteer</a>
+      </div>
+
+      <div class="menu-btn" id="menuBtn">
+        ☰
+      </div>
+
+    </div>
+
+  </header>
+
+  <!-- HERO -->
+
+  <section class="hero" id="home">
+
+    <div class="hero-content">
+
+      <h1>
+        Empowering Families & Young People
+      </h1>
+
+      <p>
+        Building brighter futures through education,
+        mentorship, support programs, and opportunities
+        for communities in need.
+      </p>
+
+      <a href="#donate" class="btn">
+        Donate Today
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- MISSION -->
+
+  <section id="mission">
+
+    <div class="section-title">
+      <h2>Our Mission</h2>
+
+      <p>
+        Creating opportunities and support systems for families and youth.
+      </p>
+    </div>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Education</h3>
+
+        <p>
+          Providing tutoring, scholarships,
+          and digital access to help young people succeed.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Family Support</h3>
+
+        <p>
+          Offering resources, counseling,
+          and assistance for vulnerable families.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Mentorship</h3>
+
+        <p>
+          Connecting youth with mentors
+          and career development opportunities.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PROGRAMS -->
+
+  <section id="programs">
+
+    <div class="section-title">
+      <h2>Our Programs</h2>
+
+      <p>
+        Helping communities through impactful initiatives.
+      </p>
+    </div>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Youth Workshops</h3>
+
+        <p>
+          Leadership, coding, business,
+          and life-skills training for young people.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Food Assistance</h3>
+
+        <p>
+          Supporting struggling families
+          with meals and essential supplies.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Community Events</h3>
+
+        <p>
+          Bringing communities together
+          through outreach and support activities.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- DONATION -->
+
+  <section id="donate">
+
+    <div class="donation">
+
+      <h2>Your Donation Makes A Difference</h2>
+
+      <p>
+        Every contribution helps provide education,
+        mentorship, meals, and opportunities for young people and families.
+      </p>
+
+      <a href="#" class="btn">
+        Support Our Cause
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- VOLUNTEER FORM -->
+
+  <section id="volunteer">
+
+    <div class="section-title">
+      <h2>Become A Volunteer</h2>
+
+      <p>
+        Join our mission and help change lives in your community.
+      </p>
+    </div>
+
+    <div class="form-container">
+
+      <form>
+
+        <input type="text" placeholder="Full Name" required>
+
+        <input type="email" placeholder="Email Address" required>
+
+        <select>
+          <option>Select Your Interest</option>
+          <option>Youth Mentorship</option>
+          <option>Community Outreach</option>
+          <option>Event Support</option>
+          <option>Fundraising</option>
+        </select>
+
+        <textarea placeholder="Tell us why you'd like to volunteer"></textarea>
+
+        <button type="submit" class="btn">
+          Submit Application
+        </button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>
+      © 2026 HopeRise Charity | Empowering Families & Youth
+    </p>
+
+  </footer>
+
+  <!-- JAVASCRIPT -->
+
+  <script>
+
+    const menuBtn = document.getElementById("menuBtn");
+    const navLinks = document.getElementById("navLinks");
+
+    menuBtn.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+
+  </script>
+
+</body>
+</html>
+```
+
+    </body>
+</html>
